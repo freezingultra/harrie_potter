@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images2.alphacoders.com/261/26102.jpg");
+  }
+
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav-bar {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    flex-grow: 1;
+    max-width: 300px;
+    background-color: #c5601d7c
+    
+  }
+
+  .product-card img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .product-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .product-card p {
+    margin-top: 10px;
+    color: whitesmoke;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
